@@ -3,6 +3,24 @@ package com.mutlithread;
 import java.sql.Date;
 
 public class Employee {
+
+    private int id;
+    private String name;
+    private char gender;
+    private double salary;
+    private String date;
+    private String department;
+    private String active;
+
+    public Employee(String name, char gender, double salary, String date, String department, String active) {
+        this.name = name;
+        this.gender = gender;
+        this.salary = salary;
+        this.date = date;
+        this.department = department;
+        this.active = active;
+    }
+
     public Employee(int id, String name, char gender, double salary, String date, String active) {
         this.id = id;
         this.name = name;
@@ -12,12 +30,13 @@ public class Employee {
         this.active = active;
     }
 
-    private int id;
-    private String name;
-    private char gender;
-    private double salary;
-    private String date;
-    private String department;
+    public Employee(int id, String name, char gender, double salary, String date) {
+        this.id = id;
+        this.name = name;
+        this.gender = gender;
+        this.salary = salary;
+        this.date = date;
+    }
 
     public String getActive() {
         return active;
@@ -27,24 +46,12 @@ public class Employee {
         this.active = active;
     }
 
-    private String active;
-
     public String getDepartment() {
         return department;
     }
 
     public void setDepartment(String department) {
         this.department = department;
-    }
-
-
-
-    public Employee(int id, String name, char gender, double salary, String date) {
-        this.id = id;
-        this.name = name;
-        this.gender = gender;
-        this.salary = salary;
-        this.date = date;
     }
 
     public int getId() { return id; }
