@@ -1,0 +1,100 @@
+Driver Loaded..
+XConnecting to the Database... jdbc:mysql://localhost:3306/payroll_service?useSSL=false
+Connection was successful !!
+
+ID: 1
+Name: Rajeev
+
+Gender: M
+Salary: 250000.0
+Date: 2018-09-28
+
+Active: 
+
+ID: 2
+Name: Rohan
+
+Gender: M
+Salary: 150000.0
+Date: 2020-05-25
+
+Active: 
+
+ID: 3
+Name: Devanshi
+
+Gender: F
+Salary: 100000.0
+Date: 2019-05-15
+
+Active: 
+
+ID: 4
+Name: Nisha
+
+Gender: F
+Salary: 300000.0
+Date: 2017-05-31
+
+Active: 
+
+ID: 5
+Name: Terisa
+
+Gender: F
+Salary: 15000.0
+Date: 2019-05-23
+
+Active: 
+
+ID: 6
+Name: Bibhav
+
+Gender: M
+Salary: 250000.0
+Date: 3920-10-16
+
+Active: 
+
+ID: 7
+Name: Fayaz
+
+Gender: M
+Salary: 300000.0
+Date: 3916-09-25
+
+Active: 
+
+ID: 8
+Name: Fayaz
+
+Gender: M
+Salary: 300000.0
+Date: 3916-09-25
+
+Active: 
+
+ID: 9
+Name: Dani
+
+Gender: F
+Salary: 20000.0
+Date: 1977-10-25
+Active: Yes
+
+ID: 10
+Name: Jessica
+
+Gender: F
+Salary: 650000.0
+Date: 2018-03-05
+Active: Yes
+
+ID: 11
+Name: Jessica
+
+Gender: F
+Salary: 650000.0
+Date: 2018-03-05
+Active: Yes
+Duration of execution : PT0S
